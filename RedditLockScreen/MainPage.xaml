@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="RedditLockScreen.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RedditLockScreen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Set Lock Screen" HorizontalAlignment="Left" Margin="416,125,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <ComboBox x:Name="SortCombo" HorizontalAlignment="Left" Margin="244,128,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="SortCombo_SelectionChanged">
+            <ComboBoxItem Content="hot"/>
+            <ComboBoxItem Content="new"/>
+            <ComboBoxItem Content="rising"/>
+            <ComboBoxItem Content="controversial"/>
+            <ComboBoxItem Content="gilded"/>
+            <ComboBoxItem Content="top - hour"/>
+            <ComboBoxItem Content="top - day"/>
+            <ComboBoxItem Content="top - week"/>
+            <ComboBoxItem Content="top - month"/>
+            <ComboBoxItem Content="top - year"/>
+            <ComboBoxItem Content="top - all time"/>
+        </ComboBox>
+        <ComboBox x:Name="SubredditCombo" HorizontalAlignment="Left" Margin="75,128,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="SubredditCombo_SelectionChanged">
+            <ComboBoxItem Content="Earth"/>
+            <ComboBoxItem Content="History"/>
+            <ComboBoxItem Content="Food"/>
+            <ComboBoxItem Content="Room"/>
+            <ComboBoxItem Content="Space"/>
+            <ComboBoxItem Content="Abandoned"/>
+            <ComboBoxItem Content="Quotes"/>
+            <ComboBoxItem Content="Map"/>
+            <ComboBoxItem Content="City"/>
+            <ComboBoxItem Content="Animal"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Reddit Lock Screen" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,101,0,0" TextWrapping="Wrap" Text="theme" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="244,101,0,0" TextWrapping="Wrap" Text="sort" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+</Page>
