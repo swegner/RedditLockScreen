@@ -14,8 +14,8 @@
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>RedditLockScreen_StoreKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>BBDA0B7577377B971613002CF3DA2A51FB5723DC</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>RedditLockScreen_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>1BF5330C885FE098DF796448E2C6E91CF517E8AE</PackageCertificateThumbprint>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
   </PropertyGroup>
@@ -127,6 +127,7 @@
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <None Include="Package.StoreAssociation.xml" />
+    <None Include="RedditLockScreen_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
