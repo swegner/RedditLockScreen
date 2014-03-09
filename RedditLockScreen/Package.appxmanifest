@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="35934Automaticable.RedditLockScreen" Publisher="CN=swegner" Version="1.1.0.7" />
+  <Identity Name="35934Automaticable.RedditLockScreen" Publisher="CN=9B3DD436-A53C-4B29-AFCA-F6DC9D05CB21" Version="1.1.0.8" />
   <Properties>
     <DisplayName>Reddit Lock Screen</DisplayName>
     <PublisherDisplayName>Automaticable</PublisherDisplayName>
